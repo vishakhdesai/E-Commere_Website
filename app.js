@@ -12,7 +12,7 @@ const multer = require("multer");
 const errorController = require('./controllers/error');
 const User = require("./models/user");
 
-const uri = "mongodb+srv://vishakhdesai:Vishakh_7@cluster0.dlxwq.mongodb.net/shop?retryWrites=true&w=majority";
+const uri = "MONGODB_URI";
 const app = express();
 const store = new MongoDBStore({
     uri: uri,
